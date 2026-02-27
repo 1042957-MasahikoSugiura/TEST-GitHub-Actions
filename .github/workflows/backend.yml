@@ -6,6 +6,7 @@ on:
       - main
 
 jobs:
-  build: ubuntu-latest
-  steps:
-    - run: echo hello world
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello world
